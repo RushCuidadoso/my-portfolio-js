@@ -1,0 +1,39 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+// IMPORT GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Roboto+Slab:wght@300;400;500;700&display=swap');
+
+$font-family: 'Playfair Display', serif;
+
+.display-2{
+    font-family: $font-family;
+
+    &--main{
+        font-weight: 700;
+        color: $dark;
+        display: inline-block;
+    }
+
+    &--description{
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        color: $dark;
+    }
+}
+
+.display-3{
+    font-family: $font-family;
+
+    &--description{
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        color: $dark;
+    }
+
+    &--contact{
+        font-size: 2rem;
+    }
+}

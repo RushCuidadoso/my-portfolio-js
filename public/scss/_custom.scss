@@ -1,0 +1,26 @@
+// IMPORT BOOTSTRAP 5
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// CUSTOMIZAR VALORES BOOTSTRAP AQUI EMBAIXO
+// MY THEME COLORS
+$white: #F1F3F8;
+$beige: #D6E0F0;
+$gray: #8D93AB;
+$dark-gray: #9b99ab;
+$dark: #393B44;
+
+// WHITE AND GRAY
+$white-default: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black-default: #000;
+
+$primary: $gray;
+$secondary: $white;

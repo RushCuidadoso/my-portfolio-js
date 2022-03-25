@@ -1,0 +1,11 @@
+@use 'custom';
+
+// Import sections
+@use 'section/navbar';
+@use 'section/main';
+@use 'section/about-me';
+
+// Import components
+
+@use "components/mixins";
+@use "components/typography";
