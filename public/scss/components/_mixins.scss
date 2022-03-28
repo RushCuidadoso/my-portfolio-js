@@ -5,6 +5,11 @@
     background: linear-gradient(136.68deg, $primary 5.29%, $white 55%);
 }
 
+@mixin texbox{
+    background: #8D93AB;
+    border-radius: 60px;
+}
+
 // ABSOLUTE CENTER
 @mixin absoluteCenter{
     position: absolute;

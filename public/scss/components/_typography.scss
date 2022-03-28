@@ -36,4 +36,22 @@ $font-family: 'Playfair Display', serif;
     &--contact{
         font-size: 2rem;
     }
+
+    &--list{
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        color: $dark;
+    }
+}
+
+.display-4{
+    font-family: $font-family;
+
+    &--description{
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        color: $dark;
+    }
 }
