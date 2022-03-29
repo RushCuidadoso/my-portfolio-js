@@ -4,15 +4,9 @@
 
 .menu{
     @include gradient;
-    font-family: 'Roboto Slab', serif;
     padding: 1rem 0;
     
     li{
         padding: 0 0.7rem;
-        a{
-            color: $dark !important;
-            text-transform: capitalize;
-            font-weight: 500;
-        }
     }
 }

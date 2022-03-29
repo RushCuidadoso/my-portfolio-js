@@ -3,10 +3,8 @@
 @use "../components/mixins" as *;
 
 .image-box-skills{
-    width: 80%;
+    width: 100%;
     img{
-        border: 1px solid black;
-        border-radius: 100%;
         width: 100%;
         height: 100%;
     }
