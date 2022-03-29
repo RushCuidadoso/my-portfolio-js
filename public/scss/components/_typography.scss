@@ -37,7 +37,7 @@ $font-family-secondary: 'Roboto', sans-serif;
 
 .display-3{
     font-family: $font-family;
-
+    margin: 0 0 !important;
     &--description{
         font-family: $font-family-secondary;
         font-size: 1rem;

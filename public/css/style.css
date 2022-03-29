@@ -11151,6 +11151,7 @@ textarea.form-control-lg {
 
 .display-3 {
   font-family: "League Spartan", sans-serif;
+  margin: 0 0 !important;
 }
 .display-3--description {
   font-family: "Roboto", sans-serif;
