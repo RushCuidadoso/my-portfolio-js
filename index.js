@@ -14,13 +14,6 @@ app.get('/', (request, response)=>{
     response.render("index", {})
 })
 
-app.get('/noticias/:slug', (request, response)=>{
-    Noticia.find({slug:request.params.slug}, (error, noticias)=>{
-        console.log(noticias)
-        response.json(noticias)
-    })
-})
-
 app.listen(port,()=>{
     console.log('rodando na porta 5000')
 })
