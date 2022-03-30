@@ -3,8 +3,5 @@
 @use "../components/mixins" as *;
 
 footer{
-    font-family: 'Roboto Slab', serif;
-    padding: 1rem 0;
-    background-color: $dark;
-    color: $beige;
+    padding-bottom: 2rem;
 }

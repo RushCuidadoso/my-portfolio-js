@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;900&family=Roboto:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;900&family=Roboto+Slab:wght@300;400;500;700&display=swap");
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11151,6 +11151,7 @@ textarea.form-control-lg {
 
 .display-3 {
   font-family: "League Spartan", sans-serif;
+  margin: 0 0 !important;
 }
 .display-3--description {
   font-family: "Roboto", sans-serif;
@@ -11163,6 +11164,7 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 .display-3--list {
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   display: block;
@@ -11178,6 +11180,8 @@ textarea.form-control-lg {
   padding: 0.5rem;
   background-color: #D6E0F0;
   border-radius: 5px;
+  text-decoration: none;
+  color: #393B44;
 }
 .download span {
   font-family: "Roboto", sans-serif;
@@ -11185,19 +11189,25 @@ textarea.form-control-lg {
 
 .display-4 {
   font-family: "League Spartan", sans-serif;
-  font-size: 2rem;
+  font-weight: 700;
+}
+.display-4--main {
+  font-family: "Roboto", sans-serif;
 }
 .display-4--description {
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  font-weight: 600;
   display: block;
   color: #393B44;
 }
 
-.download a {
-  text-decoration: none;
-  color: #393B44;
-  font-family: "Roboto Slab", serif;
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #393B44;
+  color: #D6E0F0;
+}
+footer h6 {
+  font-size: 2rem;
 }
 
 .menu {
@@ -11224,9 +11234,10 @@ textarea.form-control-lg {
 }
 
 .image-box-about-me {
-  width: 80%;
+  width: 100%;
 }
 .image-box-about-me img {
+  border-radius: 15px;
   border: 1px solid black;
   width: 100%;
   height: 100%;
@@ -11251,15 +11262,24 @@ textarea.form-control-lg {
   height: 100%;
 }
 
-.glightbox img {
-  width: 50%;
+.more {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.display-4--main {
+  padding: 2rem 0 1rem;
+}
+
+.glightbox, .certificado {
+  width: 70%;
+}
+.glightbox img, .certificado img {
+  width: 100%;
 }
 
 footer {
-  font-family: "Roboto Slab", serif;
-  padding: 1rem 0;
-  background-color: #393B44;
-  color: #D6E0F0;
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

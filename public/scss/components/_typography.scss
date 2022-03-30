@@ -2,7 +2,7 @@
 @use "../components/mixins" as *;
 
 // IMPORT GOOGLE FONTS
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;900&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;700;900&family=Roboto+Slab:wght@300;400;500;700&display=swap');
 
 $font-family: 'League Spartan', sans-serif;
 $font-family-secondary: 'Roboto', sans-serif;
@@ -37,7 +37,7 @@ $font-family-secondary: 'Roboto', sans-serif;
 
 .display-3{
     font-family: $font-family;
-
+    margin: 0 0 !important;
     &--description{
         font-family: $font-family-secondary;
         font-size: 1rem;
@@ -51,6 +51,7 @@ $font-family-secondary: 'Roboto', sans-serif;
     }
 
     &--list{
+        font-family: $font-family-secondary;
         font-size: 1rem;
         font-weight: 600;
         display: block;
@@ -70,6 +71,8 @@ $font-family-secondary: 'Roboto', sans-serif;
         padding: 0.5rem;
         background-color: $beige;
         border-radius: 5px;
+        text-decoration: none;
+        color: $dark;
     }
     span{
         font-family: $font-family-secondary;
@@ -78,20 +81,26 @@ $font-family-secondary: 'Roboto', sans-serif;
 
 .display-4{
     font-family: $font-family;
-    font-size: 2rem;
+    font-weight: 700;
+
+    &--main{
+        font-family: $font-family-secondary;
+    }
 
     &--description{
+        font-family: $font-family-secondary;
         font-size: 1rem;
-        font-weight: 600;
         display: block;
         color: $dark;
     }
 }
 
-.download{
-    a{
-        text-decoration: none;
-        color: $dark;
-        font-family: 'Roboto Slab', serif;
+footer{
+    font-family: $font-family-secondary;
+    background-color: $dark;
+    color: $beige;
+
+    h6{
+        font-size: 2rem;
     }
 }
