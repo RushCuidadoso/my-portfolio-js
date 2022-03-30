@@ -2,8 +2,15 @@
 @use "../components/typography" as *;
 @use "../components/mixins" as *;
 
-.glightbox{
+.display-4{
+    &--main{
+        padding: 2rem 0 1rem;
+    }
+}
+
+.glightbox, .certificado{
+    width: 70%;
     img{
-        width: 50%;
+        width: 100%;
     }
 }
