@@ -11234,13 +11234,17 @@ footer h6 {
 }
 
 .image-box-about-me {
-  width: 100%;
-}
-.image-box-about-me img {
+  min-width: auto;
+  overflow: hidden;
+  background: url("/public/images/lofi_generator.png") center center;
+  background-size: auto 130%;
   border-radius: 15px;
   border: 1px solid black;
-  width: 100%;
-  height: 100%;
+}
+@media (max-width: 991.98px) {
+  .image-box-about-me {
+    margin-bottom: 1rem;
+  }
 }
 
 .about-me-section .container .container {
@@ -11267,14 +11271,21 @@ footer h6 {
   font-weight: 700;
 }
 
+.glightbox2 {
+  width: 70%;
+}
+.glightbox2 img {
+  width: 100%;
+}
+
 .display-4--main {
   padding: 2rem 0 1rem;
 }
 
-.glightbox, .certificado {
+.glightbox {
   width: 70%;
 }
-.glightbox img, .certificado img {
+.glightbox img {
   width: 100%;
 }
 
