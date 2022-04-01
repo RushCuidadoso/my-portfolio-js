@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
@@ -73,15 +73,21 @@
       <div class="row align-items-center">
         <div class="col-md-6 ">
           <h1 class="display-2">
-            <span class="display-2--main">Hey!, I'm Denis.</span>
-            <span class="display-2--description lh-base mt-3">I’m a Web / Software Developer living in Ponta Porã -
+            <span class="display-2--main lang-main">Hey!, I'm Deniaaas.</span>
+            <span class="display-2--description lh-base mt-3 lang-description">I’m a Web / Software Developer living in Ponta Porã -
               Brazil.</span>
-            <span class="display-2--description lh-base fw-bold">I love computers and logic.</span>
+            <span class="display-2--description lh-base fw-bold lang-sub-description">I love computers and logic.</span>
           </h1>
         </div>
         <div class="col-md-6">
           <div class="image-box-main ms-auto">
             <img src="/public/images/svg/Web Developer_Flatline_Original.svg" alt="" class="">
+          </div>
+          <div class="row d-flex languages">
+            <a class="flag active" language="english"><img src="/public/images/flags/us.svg" alt="English"></a>
+            <a class="flag" language="portuguese"><img src="/public/images/flags/br.svg" alt="Portuguese"></a>
+            <a class="flag" language="spanish"><img src="/public/images/flags/es.svg" alt="Spanish"></a>
+            <a class="flag" language="french"><img src="/public/images/flags/fr.svg" alt="French"></a>
           </div>
         </div>
       </div>
@@ -106,19 +112,19 @@
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div class="container text-box-about-me p-4">
             <h1 class="display-3">
-              <span class="display-3--main fw-bold">About Me:</span>
-              <span class="display-3--description lh-lg mt-3">I'm Denis, I'm 25 years old, living in Ponta Porã -
+              <span class="display-3--main fw-bold lang-about-me-main">About Me:</span>
+              <span class="display-3--description lh-lg mt-3 lang-about-me-description">I'm Denis, I'm 25 years old, living in Ponta Porã -
                 Brazil. <br>
                 I've grown up with plenty of technology (in the form of game consoles and computers) so I've developed
                 some attraction for anything that involves tech. <br>
                 I've always tried to understand the logic behind something, why something works the way it does, and
-                more often than not, think about new and better ways to make it work and make it more beneficial.</span>
+                usually, think about new and better ways to make it work and make it more beneficial.</span>
             </h1>
           </div>
         </div>
       </div>
       <div class="contact d-flex justify-content-center mt-1">
-        <span class="display-3--contact fw-bold mt-2">Contact Me:</span>
+        <span class="display-3--contact fw-bold mt-2 lang-about-me-contact">Contact Me:</span>
       </div>
       <div class="socials d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/denis-peralta/"><i class="fa-brands fa-linkedin mx-3"></i></a>
@@ -126,7 +132,7 @@
         <a href="mailto:d3nisfp@gmail.com"><i class="fa-solid fa-square-envelope mx-3"></i></a>
       </div>
       <div class="download d-flex justify-content-center mt-1">
-        <a href="/public/downloads/Currículum em ingles.pdf"><span>Download my CV</span></a>
+        <a href="/public/downloads/Currículum em ingles.pdf" class="lang-about-me-cv"><span>Download my CV</span></a>
       </div>
     </div>
   </section>
@@ -138,18 +144,18 @@
         <div class="col-lg-6 ">
           <div class="container ms-auto">
             <h1 class="display-3">
-              <span class="display-3--main fw-bold">Skills:</span>
-              <span class="display-3--description lh-base mt-3">I am currently developing websites using HTML, CSS, and
+              <span class="display-3--main fw-bold lang-skills-main">Skills:</span>
+              <span class="display-3--description lh-base mt-3 lang-skills-description">I am currently developing websites using HTML, CSS, and
                 Javascript with the help of React and Node.js, and prototyping with Figma, you can see my projects by
                 clicking <a href="#projects">here.</a><br> I am also proficient using Python and Postgresql for desktop
                 software
                 development.</span>
-              <span class="display-3--list lh-base mt-3"> Languages I speak:
+              <span class="display-3--list lh-base mt-3 lang-skills-languages"> Languages I speak:
                 <ul>
-                  <li>Spanish</li>
-                  <li>Portuguese </li>
-                  <li>English</li>
-                  <li>French</li>
+                  <li class="lang-skills-spanish">Spanish</li>
+                  <li class="lang-skills-portuguese">Portuguese</li>
+                  <li class="lang-skills-english">English</li>
+                  <li class="lang-skills-french">French</li>
                 </ul>
               </span>
             </h1>
@@ -189,8 +195,7 @@
 
         <div class="col-lg-6">
           <h3 class="display-4--main">News Webpage
-            <span class="display-4--description lh-base">A front-end website created using pure Javascript, for a
-              news page</span>
+            <span class="display-4--description lh-base">A front-end website created using pure Javascript, for a news page</span>
           </h3>
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/projects/Portal de noticias/Landingbig.png" class="glightbox2"
@@ -298,7 +303,6 @@
   <script src="/public/js/glightbox.js"></script>
 
   <script type="text/javascript">
-
     const certificates = GLightbox({
       touchNavigation: true,
       loop: true,
@@ -313,17 +317,15 @@
 
     window.addEventListener("resize", () => {
       var imageHeight = document.querySelector('.text-box-about-me').offsetHeight;
-      console.log(imageHeight);
       document.querySelector('.image-box-about-me').style.height = imageHeight + 'px';
     })
 
     var imageHeight = document.querySelector('.text-box-about-me').offsetHeight;
-    console.log(imageHeight);
     document.querySelector('.image-box-about-me').style.height = imageHeight + 'px';
 
-
-
   </script>
+
+  <script src="/public/js/language.js"></script>
 </body>
 
 </html>

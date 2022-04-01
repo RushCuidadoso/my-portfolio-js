@@ -102,5 +102,9 @@ footer{
 
     h6{
         font-size: 2rem;
+
+        @include media-breakpoint-down(lg){
+            font-size: 1rem
+        }
     }
 }

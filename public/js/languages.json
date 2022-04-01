@@ -1,0 +1,233 @@
+{
+    "english": {
+        "navbar": {
+            "about-me": "About Me",
+            "skills": "Skills",
+            "projects": "Projects",
+            "certificates": "Certificates"
+        },
+        "main": {
+            "main": "Hey, I'm Denis.",
+            "description": "I'm a Web / Software Developer living in Ponta Porã - Brazil.",
+            "sub-description": "I love computers and logic"
+        },
+        "about-me": {
+            "main": "About Me:",
+            "description": "I'm Denis, I'm 25 years old, living in Ponta Porã - Brazil. <br> I've grown up with plenty of technology (in the form of game consoles and computers) so I've developed some attraction for anything that involves tech. <br> I've always tried to understand the logic behind something, why something works the way it does, and usually, think about new and better ways to make it work and make it more beneficial. ",
+            "contact": "Contact Me:",
+            "cv": "Download my CV"
+        },
+        "skills": {
+            "main" : "Skills",
+            "description" : "I am currently developing websites using HTML, CSS, and Javascript with the help of React and Node.js, and prototyping with Figma, you can see my projects by clicking <a href=\"#projects\">here.</a><br> I am also proficient using Python and Postgresql for desktop software development.",
+            "languages": "Languages I speak",
+            "list": {
+                "spanish": "Spanish",
+                "portuguese": "Portuguese",
+                "english": "English",
+                "french": "French"
+            }
+        },
+        "projects": {
+            "main": "Projects",
+            "projects": {
+                "pokemon": {
+                    "name": "Poké API Visualization",
+                    "description": "A little front-end web app that shows pokemons using Pokémon public API."
+                },
+                "news": {
+                    "name": "News Webpage",
+                    "description": "A front-end website created using pure Javascript, for a news page"
+                },
+                "instagram": {
+                    "name": "Instagram Clone",
+                    "description": "A social media with authentication, images upload and comments"
+                },
+                "checks": {
+                    "name": "Checks Control System",
+                    "description": "A system that I created for a clothes store, to help keep predated checks given to the suppliers in mind for payment"
+                }
+            },
+            "see-more": "See More"
+        },
+        "certificates": {
+            "main": "Certificates",
+            "certificates": {
+                "diploma": {
+                    "name": "University \"Uninorte\" - Computer Engineer Diploma",
+                    "description": ""
+                },
+                "danki-frontend": {
+                    "name": "Danki Code - Front-end Web Master",
+                    "description": ""
+                },
+                "remote": {
+                    "name": "Digital Innovation One - Remote Worker",
+                    "description": ""
+                },
+                "inter": {
+                    "name": "Digital Innotavion One - Inter Front-end Developer",
+                    "description": ""
+                }
+            }
+        },
+        "footer": {
+            "main": "Made with pride by Denis Peralta ©.",
+            "copyright": "All rights reserved."
+        }
+    },
+    "spanish": {
+        "navbar": {
+            "about-me": "Sobre mí",
+            "skills": "Habilidades",
+            "projects": "Proyectos",
+            "certificates": "Certificaciones"
+        },
+        "main": {
+            "main": "Hola, soy Denis.",
+            "description": "Soy un desarrollador de software y páginas web que vive en Ponta Porã - Brasil.",
+            "sub-description": "Me gustan las computadoras y la lógica"
+        },
+        "about-me": {
+            "main": "Sobre Mí:",
+            "description": " Soy Denis, tengo 25 años y vivo en Ponta Porã - Brasil <br> Crecí rodeado de bastante tecnología (en la forma de videojuegos y computadoras) entonces he desarrollado cierta atracción hacia cualquier cosa que involucre tecnología. <br> Siempre he intentado entender la lógica detrás de algo, por qué las cosas funcionan como lo hacen, y usualmente, pensar en nuevas y mejores formas de hacerlo funcionar para hacerlo más beneficioso. ",
+            "contact": "Contáctame:",
+            "cv": "Descarga mi CV"
+        },
+        "skills": {
+            "main" : "Habilidades",
+            "description" : "Actualmente estoy desarrollando páginas web utilizando HTML, CSS, Javascript con la ayuda de React y Node.js, y prototipando con Figma, puedes ver mis proyectos clicando <a href=\"#projects\">aquí.</a><br> También tengo conocimiento en Python y Postgresql para desarrollo de aplicaciones de escritorio.",
+            "languages": "Idiomas que hablo",
+            "list": {
+                "spanish": "Español",
+                "portuguese": "Portugués",
+                "english": "Inglés",
+                "french": "Francés"
+            }
+        },
+        "projects": {
+            "main": "Proyectos",
+            "projects": {
+                "pokemon": {
+                    "name": "Visualización de la Poke API",
+                    "description": "Una pequeña aplicación front-end que muestra pokémons utilizando la API pública de pokémons."
+                },
+                "news": {
+                    "name": "Página web de noticias",
+                    "description": "Una página web creada utilizando javascript puro, para noticiero"
+                },
+                "instagram": {
+                    "name": "Clon de Instagram",
+                    "description": "Una red social con autenticación, carga de imágenes y comentarios"
+                },
+                "checks": {
+                    "name": "Sistema de Control de Cheques",
+                    "description": "Un sistema que creé para una tienda de ropa, para ayudar a mantener cheques predatados entregados a los proveedores en mente para controlar la fecha de pago"
+                }
+            },
+            "see-more": "Ver más"
+        },
+        "certificates": {
+            "main": "Certificaciónes",
+            "certificates": {
+                "diploma": {
+                    "name": "Universidad \"Uninorte\" - Diploma de Ingeniero Informático",
+                    "description": ""
+                },
+                "danki-frontend": {
+                    "name": "Danki Code - Maestro Front-end",
+                    "description": ""
+                },
+                "remote": {
+                    "name": "Digital Innovation One - Trabajador Remoto",
+                    "description": ""
+                },
+                "inter": {
+                    "name": "Digital Innovation One - Desarrollo front-end de Inter",
+                    "description": ""
+                }     
+            }
+        },
+        "footer": {
+            "main": "Hecho con orgullo por Denis Peralta ©.",
+            "copyright": "Todos los derechos reservados."
+        }
+    },
+    "portuguese": {
+        "navbar": {
+            "about-me": "Sobre mim",
+            "skills": "Habilidades",
+            "projects": "Projetos",
+            "certificates": "Certificacões"
+        },
+        "main": {
+            "main": "Olá, sou Denis.",
+            "description": "Sou um desenvolvedor de software e páginas web que vive em Ponta Porã - Brasil.",
+            "sub-description": "Eu gosto de computadores e lógica"
+        },
+        "about-me": {
+            "main": "Sobre Mim:",
+            "description": " Sou Denis, tenho 25 anos e moro em Ponta Porã - Brasil <br> Cresci rodeado de bastante tecnologia (na forma de videogames e computadores) então fui desenvolvendo certa atracção para qualquer coisa que envolva tecnologia. <br> Sempre tentei entender a lógica por trás de algo, por quê as coisas funcionan como fazem, e frequentemente, pensar em novas e melhores formas de fazê-lo funcionar para ser mais benéfico.",
+            "contact": "Fale comigo:",
+            "cv": "Baixe meu CV"
+        },
+        "skills": {
+            "main" : "Habilidades",
+            "description" : "Atualmente estou desenvolvendo páginas web utilizando HTML, CSS, Javascript com a ajuda de React e Node.js, e prototipando com Figma, você pode ver meus projetos clicando <a href=\"#projects\">aqui.</a><br> Também tenho conhecimento em Python y Postgresql para desenvolvimento de aplicacões de escritório.",
+            "languages": "Idiomas que falo",
+            "list": {
+                "spanish": "Espanhol",
+                "portuguese": "Português",
+                "english": "Inglês",
+                "french": "Francês"
+            }
+        },
+        "projects": {
+            "main": "Projetos",
+            "projects": {
+                "pokemon": {
+                    "name": "Visualização da Poke API",
+                    "description": "Uma pequena aplicação front-end que mostra pokémons utilizando a API pública de pokémons."
+                },
+                "news": {
+                    "name": "Página web de noticias",
+                    "description": "Uma página web criada utilizando javascript puro, para noticias"
+                },
+                "instagram": {
+                    "name": "Clone de Instagram",
+                    "description": "Una rede social con autenticação, carga de imagens e comentários"
+                },
+                "checks": {
+                    "name": "Sistema de Controle de Cheques",
+                    "description": "Um sistema que criei para uma loja de roupas, para ajudar a manter cheques predatados entregados aos fornecedores em mente para controlar a data de pagamento"
+                }
+            },
+            "see-more": "Ver mais"
+        },
+        "certificates": {
+            "main": "Certificações",
+            "certificates": {
+                "diploma": {
+                    "name": "Universidade \"Uninorte\" - Diploma de Engenheiro Informático",
+                    "description": ""
+                },
+                "danki-frontend": {
+                    "name": "Danki Code - Meestro Front-end",
+                    "description": ""
+                },
+                "remote": {
+                    "name": "Digital Innovation One - Trabalho Remoto",
+                    "description": ""
+                },
+                "inter": {
+                    "name": "Digital Innovation One - Desenvolvimento front-end da Inter",
+                    "description": ""
+                }     
+            }
+        },
+        "footer": {
+            "main": "Feito com orgulho por Denis Peralta ©.",
+            "copyright": "Todos os direitos reservados."
+        }
+    }
+}

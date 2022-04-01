@@ -11209,6 +11209,11 @@ footer {
 footer h6 {
   font-size: 2rem;
 }
+@media (max-width: 991.98px) {
+  footer h6 {
+    font-size: 1rem;
+  }
+}
 
 .menu {
   background: linear-gradient(136.68deg, #8D93AB 5.29%, #F1F3F8 55%);
@@ -11220,7 +11225,7 @@ footer h6 {
 
 .main-section {
   background: linear-gradient(136.68deg, #8D93AB 5.29%, #F1F3F8 55%);
-  padding: 6rem 0 0 0;
+  padding: 2rem 0 0 0;
   width: 100%;
   height: 100%;
 }
@@ -11231,6 +11236,20 @@ footer h6 {
 .image-box-main img {
   width: 100%;
   height: 100%;
+}
+
+.languages {
+  justify-content: center;
+}
+.languages a {
+  filter: grayscale(1);
+  width: 20%;
+}
+.languages a:hover {
+  filter: grayscale(0);
+}
+.languages a.active {
+  filter: grayscale(0);
 }
 
 .image-box-about-me {

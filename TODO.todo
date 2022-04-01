@@ -1,18 +1,18 @@
-- Arrumar responsividade da foto
+- Arrumar responsividade da foto (ok)
 - Arrumar tamanhos dos textos
 - Criar nova rota com descrição do projeto
 - Adicionar owl carousel na main rota
 - Adicionar glightbox na rota do projeto
-- Adicionar svg para diversificar (procurar nos favoritos do chrome)
-- Arrumar responsividade de about me (tirar foto)
+- Adicionar svg para diversificar (procurar nos favoritos do chrome) (ok)
+- Arrumar responsividade de about me (tirar foto) (ok)
 - Arrumar tamanhos das imagens em projetos, ou adicionar margens corretas
 - Fazer o carousel ser clickavel, e abrir imagem com zoom
 - Animação nos botões de contato
 - Animação nos SVG de main e skills
-- Arrumar caixa a do diploma
 - Sincronizar vscode nas maquinas, e procurar melhores extensões
-- Mudar carroseis por glightbox
-- Arrumar tamanho de area clickavel nos certificados e projetos
+- Mudar carroseis por glightbox (ok)
+- Arrumar tamanho de area clickavel nos certificados e projetos (ok)
 - Adicionar idiomas
-- Adicionar SEO
-- Adicionar SMO
+- Adicionar SEO (ok)
+- Adicionar SMO (ok)
+- Integrar a MongoDB
