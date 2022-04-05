@@ -35,6 +35,7 @@
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="/public/css/glightbox.css" />
   <script src="/public/fontawesome/all.js"></script>
+
 </head>
 
 <body>
@@ -50,16 +51,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+              <a class="nav-link lang-navbar-about-me" aria-current="page" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link lang-navbar-skills" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link lang-navbar-projects" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#certificates">Certificates</a>
+              <a class="nav-link lang-navbar-certificates" href="#certificates">Certificates</a>
             </li>
           </ul>
         </div>
@@ -74,7 +75,8 @@
         <div class="col-md-6 ">
           <h1 class="display-2">
             <span class="display-2--main lang-main">Hey!, I'm Deniaaas.</span>
-            <span class="display-2--description lh-base mt-3 lang-description">I’m a Web / Software Developer living in Ponta Porã -
+            <span class="display-2--description lh-base mt-3 lang-description">I’m a Web / Software Developer living in
+              Ponta Porã -
               Brazil.</span>
             <span class="display-2--description lh-base fw-bold lang-sub-description">I love computers and logic.</span>
           </h1>
@@ -84,7 +86,7 @@
             <img src="/public/images/svg/Web Developer_Flatline_Original.svg" alt="" class="">
           </div>
           <div class="row d-flex languages">
-            <a class="flag active" language="english"><img src="/public/images/flags/us.svg" alt="English"></a>
+            <a class="flag active" language="english"><img src="/public/images/flags/us.svg" class="img-flag" alt="English"></a>
             <a class="flag" language="portuguese"><img src="/public/images/flags/br.svg" alt="Portuguese"></a>
             <a class="flag" language="spanish"><img src="/public/images/flags/es.svg" alt="Spanish"></a>
             <a class="flag" language="french"><img src="/public/images/flags/fr.svg" alt="French"></a>
@@ -113,7 +115,8 @@
           <div class="container text-box-about-me p-4">
             <h1 class="display-3">
               <span class="display-3--main fw-bold lang-about-me-main">About Me:</span>
-              <span class="display-3--description lh-lg mt-3 lang-about-me-description">I'm Denis, I'm 25 years old, living in Ponta Porã -
+              <span class="display-3--description lh-lg mt-3 lang-about-me-description">I'm Denis, I'm 25 years old,
+                living in Ponta Porã -
                 Brazil. <br>
                 I've grown up with plenty of technology (in the form of game consoles and computers) so I've developed
                 some attraction for anything that involves tech. <br>
@@ -145,19 +148,19 @@
           <div class="container ms-auto">
             <h1 class="display-3">
               <span class="display-3--main fw-bold lang-skills-main">Skills:</span>
-              <span class="display-3--description lh-base mt-3 lang-skills-description">I am currently developing websites using HTML, CSS, and
+              <span class="display-3--description lh-base mt-3 lang-skills-description">I am currently developing
+                websites using HTML, CSS, and
                 Javascript with the help of React and Node.js, and prototyping with Figma, you can see my projects by
                 clicking <a href="#projects">here.</a><br> I am also proficient using Python and Postgresql for desktop
                 software
                 development.</span>
-              <span class="display-3--list lh-base mt-3 lang-skills-languages"> Languages I speak:
-                <ul>
-                  <li class="lang-skills-spanish">Spanish</li>
-                  <li class="lang-skills-portuguese">Portuguese</li>
-                  <li class="lang-skills-english">English</li>
-                  <li class="lang-skills-french">French</li>
-                </ul>
-              </span>
+              <span class="display-3--list lh-base mt-3 lang-skills-languages"> Languages I speak: </span>
+              <ul>
+                <li class="lang-skills-text spanish lh-base">Spanish</li>
+                <li class="lang-skills-text portuguese lh-base">Portuguese</li>
+                <li class="lang-skills-text english lh-base">English</li>
+                <li class="lang-skills-text french lh-base">French</li>
+              </ul>
             </h1>
           </div>
         </div>
@@ -178,14 +181,15 @@
       </path>
     </svg>
     <div class="container">
-      <h1 class="text-center display-4 mb-4" id="projects"> Projects </h1>
+      <h1 class="text-center display-4 mb-4 lang-projects-main" id="projects"> Projects </h1>
 
       <div class="project row text-center">
         <div class="col-lg-6">
-          <h3 class="display-4--main">Poké API Visualization
-            <span class="display-4--description lh-base">A little front-end web app that returns pokemons using Pokémon
-              public API.</span>
-          </h3>
+          <h3 class="display-4--main lang-projects-pokemon-name p-0 m-0">Poké API Visualization </h3>
+          <span class="display-4--description lh-base lang-projects-pokemon-description p-2">A little front-end web app that
+            returns pokemons using Pokémon
+            public API.</span>
+
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/projects/PokeAPI/Page1big.png" class="glightbox2" data-gallery="projects">
               <img src="/public/images/projects/PokeAPI/Page1.png" alt="PokeAPI" />
@@ -194,9 +198,10 @@
         </div>
 
         <div class="col-lg-6">
-          <h3 class="display-4--main">News Webpage
-            <span class="display-4--description lh-base">A front-end website created using pure Javascript, for a news page</span>
-          </h3>
+          <h3 class="display-4--main lang-projects-news-name p-0 m-0">News Webpage </h3>
+          <span class="display-4--description lh-base lang-projects-news-description p-2">A front-end website created using
+            pure Javascript, for a news page</span>
+
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/projects/Portal de noticias/Landingbig.png" class="glightbox2"
               data-gallery="projects">
@@ -209,10 +214,11 @@
       <!-- SECOND ROW -->
       <div class="project row text-center mt-5">
         <div class="col-lg-6">
-          <h3 class="display-4--main">Instagram Clone
-            <span class="display-4--description lh-base">A social media with online authentication, images upload and
-              comments</span>
-          </h3>
+          <h3 class="display-4--main lang-projects-instagram-name p-0 m-0">Instagram Clone </h3>
+          <span class="display-4--description lh-base lang-projects-instagram-description p-2">A social media with online
+            authentication, images upload and
+            comments</span>
+
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/projects/Clone de instagram/Instagrambig.png" class="glightbox2"
               data-gallery="projects">
@@ -222,10 +228,11 @@
         </div>
 
         <div class="col-lg-6">
-          <h3 class="display-4--main">Checks Control System
-            <span class="display-4--description lh-base">A system that I created for a clothes store, to help keep
-              predated checks given to the suppliers in mind for payment</span>
-          </h3>
+          <h3 class="display-4--main lang-projects-checks-name p-0 m-0">Checks Control System </h3>
+          <span class="display-4--description lh-base lang-projects-checks-description p-2">A system that I created for a
+            clothes store, to help keep
+            predated checks given to the suppliers in mind for payment</span>
+
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/projects/Sistema de Cheques/Check1big.jpg" class="glightbox2"
               data-gallery="projects">
@@ -234,7 +241,7 @@
           </div>
         </div>
         <div class="download d-flex justify-content-center mt-5">
-          <a href="/"><span class="more">See More</span></a>
+          <a href="/"><span class="more lang-projects-see-more">See More</span></a>
         </div>
       </div>
     </div>
@@ -248,10 +255,10 @@
   <!-- SECTION CERTIFICATES -->
   <section id="certificates" class="certificates-section">
     <div class="container">
-      <h1 class="text-center display-4 mb-4"> Certificates </h1>
+      <h1 class="text-center display-4 mb-4 lang-certificates-main"> Certificates </h1>
       <div class="row align-items-center text-center">
         <div class="col-lg-6">
-          <h3 class="display-4--main">University "Uninorte" - Computer Engineer Diploma </h3>
+          <h3 class="display-4--main lang-certificates-university">University "Uninorte" - Computer Engineer Diploma </h3>
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/certificates/diploma.jpg" class="glightbox" data-gallery="certificates">
               <img src="/public/images/certificates/diploma.jpg" alt="Diploma" />
@@ -259,7 +266,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="display-4--main">Danki Code - Front-end Web Master</h3>
+          <h3 class="display-4--main lang-certificates-webmaster">Danki Code - Front-end Web Master</h3>
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/certificates/Frontend.jpg" class="glightbox" data-gallery="certificates">
               <img src="/public/images/certificates/Frontend.jpg" alt="Front-end" />
@@ -269,7 +276,7 @@
       </div>
       <div class="row align-items-center text-center">
         <div class="col-lg-6">
-          <h3 class="display-4--main">Digital Innovation One - Become Remote </h3>
+          <h3 class="display-4--main lang-certificates-remote">Digital Innovation One - Become Remote </h3>
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/certificates/Remote.jpg" class="glightbox" data-gallery="certificates">
               <img src="/public/images/certificates/Remote.jpg" alt="Remote" />
@@ -277,7 +284,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="display-4--main">Digital Innovation One - Inter Front-end Developer</h3>
+          <h3 class="display-4--main lang-certificates-inter">Digital Innovation One - Inter Front-end Developer</h3>
           <div class="image-box-certificates d-flex justify-content-center">
             <a href="/public/images/certificates/Inter.jpg" class="glightbox" data-gallery="certificates">
               <img src="/public/images/certificates/Inter.jpg" alt="Inter" />
@@ -295,8 +302,8 @@
         d="M0,256L60,256C120,256,240,256,360,245.3C480,235,600,213,720,197.3C840,181,960,171,1080,192C1200,213,1320,267,1380,293.3L1440,320L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
       </path>
     </svg>
-    <h6>Feito com orgulho por Denis Peralta ©.</h6>
-    <span>Todos os direitos reservados.</span>
+    <h6 class="lang-footer-name">Feito com orgulho por Denis Peralta ©.</h6>
+    <span class="lang-footer-rights">Todos os direitos reservados.</span>
   </footer>
 
   <script src="/js/bootstrap.bundle.js"></script>
@@ -324,8 +331,8 @@
     document.querySelector('.image-box-about-me').style.height = imageHeight + 'px';
 
   </script>
-
   <script src="/public/js/language.js"></script>
+
 </body>
 
 </html>

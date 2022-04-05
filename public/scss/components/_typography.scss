@@ -59,6 +59,13 @@ $font-family-secondary: 'Roboto', sans-serif;
     }
 }
 
+.lang-skills-text{
+    font-family: $font-family-secondary;
+    font-size: 1rem;
+    font-weight: 600;
+    color: $dark;
+}
+
 .socials{
     a{
         font-size: 2.5rem !important;

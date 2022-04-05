@@ -90,7 +90,7 @@
         },
         "about-me": {
             "main": "Sobre Mí:",
-            "description": " Soy Denis, tengo 25 años y vivo en Ponta Porã - Brasil <br> Crecí rodeado de bastante tecnología (en la forma de videojuegos y computadoras) entonces he desarrollado cierta atracción hacia cualquier cosa que involucre tecnología. <br> Siempre he intentado entender la lógica detrás de algo, por qué las cosas funcionan como lo hacen, y usualmente, pensar en nuevas y mejores formas de hacerlo funcionar para hacerlo más beneficioso. ",
+            "description": " Soy Denis, tengo 25 años y vivo en Ponta Porã - Brasil. <br> Crecí rodeado de bastante tecnología (en la forma de videojuegos y computadoras) entonces he desarrollado cierta atracción hacia cualquier cosa que involucre tecnología. <br> Siempre he intentado entender la lógica detrás de algo, por qué las cosas funcionan como lo hacen, y usualmente, pensar en nuevas y mejores formas de hacerlo funcionar para hacerlo más beneficioso. ",
             "contact": "Contáctame:",
             "cv": "Descarga mi CV"
         },
@@ -128,7 +128,7 @@
             "see-more": "Ver más"
         },
         "certificates": {
-            "main": "Certificaciónes",
+            "main": "Certificaciones",
             "certificates": {
                 "diploma": {
                     "name": "Universidad \"Uninorte\" - Diploma de Ingeniero Informático",
@@ -167,7 +167,7 @@
         },
         "about-me": {
             "main": "Sobre Mim:",
-            "description": " Sou Denis, tenho 25 anos e moro em Ponta Porã - Brasil <br> Cresci rodeado de bastante tecnologia (na forma de videogames e computadores) então fui desenvolvendo certa atracção para qualquer coisa que envolva tecnologia. <br> Sempre tentei entender a lógica por trás de algo, por quê as coisas funcionan como fazem, e frequentemente, pensar em novas e melhores formas de fazê-lo funcionar para ser mais benéfico.",
+            "description": " Sou Denis, tenho 25 anos e moro em Ponta Porã - Brasil. <br> Cresci rodeado de bastante tecnologia (na forma de videogames e computadores) então fui desenvolvendo certa atracção para qualquer coisa que envolva tecnologia. <br> Sempre tentei entender a lógica por trás de algo, por quê as coisas funcionan como fazem, e frequentemente, pensar em novas e melhores formas de fazê-lo funcionar para ser mais benéfico.",
             "contact": "Fale comigo:",
             "cv": "Baixe meu CV"
         },
