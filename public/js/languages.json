@@ -9,7 +9,7 @@
         "main": {
             "main": "Hey, I'm Denis.",
             "description": "I'm a Web / Software Developer living in Ponta Porã - Brazil.",
-            "sub-description": "I love computers and logic"
+            "sub-description": "I love computers and logic."
         },
         "about-me": {
             "main": "About Me:",
@@ -20,7 +20,7 @@
         "skills": {
             "main" : "Skills",
             "description" : "I am currently developing websites using HTML, CSS, and Javascript with the help of React and Node.js, and prototyping with Figma, you can see my projects by clicking <a href=\"#projects\">here.</a><br> I am also proficient using Python and Postgresql for desktop software development.",
-            "languages": "Languages I speak",
+            "languages": "Languages I speak:",
             "list": {
                 "spanish": "Spanish",
                 "portuguese": "Portuguese",
@@ -37,15 +37,15 @@
                 },
                 "news": {
                     "name": "News Webpage",
-                    "description": "A front-end website created using pure Javascript, for a news page"
+                    "description": "A front-end website created using pure Javascript, for a news page."
                 },
                 "instagram": {
                     "name": "Instagram Clone",
-                    "description": "A social media with authentication, images upload and comments"
+                    "description": "A social media with authentication, images upload and comments."
                 },
                 "checks": {
                     "name": "Checks Control System",
-                    "description": "A system that I created for a clothes store, to help keep predated checks given to the suppliers in mind for payment"
+                    "description": "A system that I created for a clothes store, to help keep predated checks given to the suppliers in mind for payment."
                 }
             },
             "see-more": "See More"
@@ -86,7 +86,7 @@
         "main": {
             "main": "Hola, soy Denis.",
             "description": "Soy un desarrollador de software y páginas web que vive en Ponta Porã - Brasil.",
-            "sub-description": "Me gustan las computadoras y la lógica"
+            "sub-description": "Me gustan las computadoras y la lógica."
         },
         "about-me": {
             "main": "Sobre Mí:",
@@ -97,7 +97,7 @@
         "skills": {
             "main" : "Habilidades",
             "description" : "Actualmente estoy desarrollando páginas web utilizando HTML, CSS, Javascript con la ayuda de React y Node.js, y prototipando con Figma, puedes ver mis proyectos clicando <a href=\"#projects\">aquí.</a><br> También tengo conocimiento en Python y Postgresql para desarrollo de aplicaciones de escritorio.",
-            "languages": "Idiomas que hablo",
+            "languages": "Idiomas que hablo:",
             "list": {
                 "spanish": "Español",
                 "portuguese": "Portugués",
@@ -114,15 +114,15 @@
                 },
                 "news": {
                     "name": "Página web de noticias",
-                    "description": "Una página web creada utilizando javascript puro, para noticiero"
+                    "description": "Una página web creada utilizando javascript puro, para noticiero."
                 },
                 "instagram": {
                     "name": "Clon de Instagram",
-                    "description": "Una red social con autenticación, carga de imágenes y comentarios"
+                    "description": "Una red social con autenticación, carga de imágenes y comentarios."
                 },
                 "checks": {
                     "name": "Sistema de Control de Cheques",
-                    "description": "Un sistema que creé para una tienda de ropa, para ayudar a mantener cheques predatados entregados a los proveedores en mente para controlar la fecha de pago"
+                    "description": "Un sistema que creé para una tienda de ropa, para ayudar a mantener cheques predatados entregados a los proveedores en mente para controlar la fecha de pago."
                 }
             },
             "see-more": "Ver más"
@@ -163,7 +163,7 @@
         "main": {
             "main": "Olá, sou Denis.",
             "description": "Sou um desenvolvedor de software e páginas web que vive em Ponta Porã - Brasil.",
-            "sub-description": "Eu gosto de computadores e lógica"
+            "sub-description": "Eu gosto de computadores e lógica."
         },
         "about-me": {
             "main": "Sobre Mim:",
@@ -174,7 +174,7 @@
         "skills": {
             "main" : "Habilidades",
             "description" : "Atualmente estou desenvolvendo páginas web utilizando HTML, CSS, Javascript com a ajuda de React e Node.js, e prototipando com Figma, você pode ver meus projetos clicando <a href=\"#projects\">aqui.</a><br> Também tenho conhecimento em Python y Postgresql para desenvolvimento de aplicacões de escritório.",
-            "languages": "Idiomas que falo",
+            "languages": "Idiomas que falo:",
             "list": {
                 "spanish": "Espanhol",
                 "portuguese": "Português",
@@ -191,15 +191,15 @@
                 },
                 "news": {
                     "name": "Página web de noticias",
-                    "description": "Uma página web criada utilizando javascript puro, para noticias"
+                    "description": "Uma página web criada utilizando javascript puro, para noticias."
                 },
                 "instagram": {
                     "name": "Clone de Instagram",
-                    "description": "Una rede social con autenticação, carga de imagens e comentários"
+                    "description": "Una rede social con autenticação, carga de imagens e comentários."
                 },
                 "checks": {
                     "name": "Sistema de Controle de Cheques",
-                    "description": "Um sistema que criei para uma loja de roupas, para ajudar a manter cheques predatados entregados aos fornecedores em mente para controlar a data de pagamento"
+                    "description": "Um sistema que criei para uma loja de roupas, para ajudar a manter cheques predatados entregados aos fornecedores em mente para controlar a data de pagamento."
                 }
             },
             "see-more": "Ver mais"
@@ -228,6 +228,83 @@
         "footer": {
             "main": "Feito com orgulho por Denis Peralta ©.",
             "copyright": "Todos os direitos reservados."
+        }
+    },
+    "french": {
+        "navbar": {
+            "about-me": "Sur moi",
+            "skills": "Compétences",
+            "projects": "Projets",
+            "certificates": "Certifications"
+        },
+        "main": {
+            "main": "Bonjour, je suis Denis.",
+            "description": "Je suis un développeur web et logiciel vivant à Ponta Porã - Brésil.",
+            "sub-description": "J'aime les ordinateurs et la logique."
+        },
+        "about-me": {
+            "main": "À propos de moi:",
+            "description": "Je m'appelle Denis, j'ai 25 ans et j'habite à Ponta Porã - Brésil <br> J'ai grandi entouré de beaucoup de technologie (sous forme de jeux vidéo et d'ordinateurs) donc j'ai développé une certaine attirance pour tout ce qui touche à la technologie. <br> J'ai toujours essayé de comprendre la logique derrière quelque chose, pourquoi les choses fonctionnent comme elles le font, et je pense généralement à de nouvelles et meilleures façons de le faire fonctionner pour le rendre plus bénéfique.",
+            "contact": "Contactez moi:",
+            "cv": "Télécharger mon CV"
+        },
+        "skills": {
+            "main" : "Compétences",
+            "description" : "Je développe actuellement des pages Web en utilisant HTML, CSS, Javascript avec l'aide de React et Node.js, et je prototype avec Figma, vous pouvez voir mes projets en cliquant <a href=\"#projects\">ici.</a><br> J'ai également des connaissances en Python et Postgresql pour le développement d'applications de bureau.",
+            "languages": "Langues que je parle:",
+            "list": {
+                "spanish": "Espagnol",
+                "portuguese": "Portugais",
+                "english": "Anglais",
+                "french": "Français"
+            }
+        },
+        "projects": {
+            "main": "Projets",
+            "projects": {
+                "pokemon": {
+                    "name": "Visualisation de l'API Poke",
+                    "description": "Une petite application frontale qui affiche les pokémons en utilisant l'API publique des pokémons."
+                },
+                "news": {
+                    "name": "Site d'actualités",
+                    "description": "Une page web créée en pur javascript, pour un journal."
+                },
+                "instagram": {
+                    "name": "Clone d'Instagram",
+                    "description": "Un réseau social avec authentification, téléchargement d'images et de commentaires."
+                },
+                "checks": {
+                    "name": "Système de Contrôle des Chèques Bancaires",
+                    "description": "Un système que j'ai créé pour un magasin de vêtements, pour aider à garder à l'esprit les chèques prédatés livrés aux vendeurs afin de contrôler la date de paiement."
+                }
+            },
+            "see-more": "Voir plus"
+        },
+        "certificates": {
+            "main": "Certifications",
+            "certificates": {
+                "diploma": {
+                    "name": "Université \"Uninorte\" - Diplôme d'ingénieur en informatique",
+                    "description": ""
+                },
+                "danki-frontend": {
+                    "name": "Danki Code - Maître Front-end",
+                    "description": ""
+                },
+                "remote": {
+                    "name": "Digital Innovation One - Trabalho Remoto",
+                    "description": ""
+                },
+                "inter": {
+                    "name": "Digital Innovation One - Inter Développeur Front-end",
+                    "description": ""
+                } 
+            }
+        },
+        "footer": {
+            "main": "Fièrement réalisé par Denis Peralta ©.",
+            "copyright": "Tous droits réservés."
         }
     }
 }
